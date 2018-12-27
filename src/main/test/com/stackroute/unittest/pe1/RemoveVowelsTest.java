@@ -29,11 +29,13 @@ public class RemoveVowelsTest {
 
     @Test
     public void removeVowels1() {
-        String input[]={"Abhishek","Banka","India"};
-        String output[]={"bhshk","Bnk","nd"};
+        String input[]={"Anjali","kali","India"};
+        String output[]={"njl","kl","nd"};
 
         assertEquals("error",output,removeVowels.removeVowels(input));
     }
+
+
 
     @Test
     public void removeVowels2() {
